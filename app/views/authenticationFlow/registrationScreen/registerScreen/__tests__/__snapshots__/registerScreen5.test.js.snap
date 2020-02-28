@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationScreen5 RegistrationScreen5 snapshot 1`] = `
+<View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Text>
+       Вход 
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
