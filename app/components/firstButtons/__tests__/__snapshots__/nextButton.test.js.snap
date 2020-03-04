@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstButtons FirstButtons snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "marginVertical": 40,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#08DBA5",
+        "fontSize": 35,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

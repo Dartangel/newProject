@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NextButton NextButton snapshot 1`] = `
+<View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#08DBA5",
+        "borderRadius": 50,
+        "justifyContent": "center",
+        "marginVertical": 20,
+        "minHeight": 60,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 20,
+        }
+      }
+    />
+  </TouchableOpacity>
+</View>
+`;

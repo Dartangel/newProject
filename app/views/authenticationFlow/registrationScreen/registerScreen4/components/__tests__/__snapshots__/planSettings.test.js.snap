@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanSettings PlanSettings snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderRadius": 25,
+        "height": "17%",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Я в порядке
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingLeft": 15,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderRadius": 25,
+        "height": "17%",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Без прыжков
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingLeft": 15,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderRadius": 25,
+        "height": "17%",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Малая ударная нагрузка
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingLeft": 15,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <NextButton
+      onPress={[Function]}
+      title="Cледующие"
+    />
+  </View>
+</View>
+`;

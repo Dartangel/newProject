@@ -6,7 +6,7 @@ import ReportScreen from '../reportScreen';
 describe('ReportScreen', () => {
     test('ReportScreen snapshot', () => {
         const renderer = new ShallowRenderer();
-        const snapshot = renderer.render(<ReportScreen/>);
+        const snapshot = renderer.render(<ReportScreen />);
         expect(snapshot).toMatchSnapshot();
     });
 });

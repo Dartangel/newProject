@@ -33,7 +33,7 @@ const header = titles => {
   );
 };
 
-const menuItems = () => {
+const menuItems = (items) => {
   return (
     <View style={styles.itemsViewRows}>
       {items.map(({ text }) => {
@@ -74,13 +74,13 @@ const MainScreen = () => {
             </ScrollView>
           </View>
           {header(titles.HEADER_SUB_TITLE_ONE)}
-          {menuItems()}
+          {menuItems(items)}
           {header(titles.HEADER_SUB_TITLE_TWO)}
-          {menuItems()}
+          {menuItems(items)}
           {header(titles.HEADER_SUB_TITLE_THREE)}
-          {menuItems()}
+          {menuItems(items)}
           {header(titles.HEADER_SUB_TITLE_FOUR)}
-          {menuItems()}
+          {menuItems(items)}
         </View>
       </ScrollView>
     </View>

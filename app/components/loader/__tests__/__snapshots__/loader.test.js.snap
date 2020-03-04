@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Loader snapshot 1`] = `
+<AnimatedComponent
+  source={
+    Object {
+      "testUri": "../../../app/src/img/splashScreen.jpeg",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "opacity": 0,
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;

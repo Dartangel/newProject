@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanSettings PlanSettings snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderRadius": 25,
+        "height": "17%",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Новичёк
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        5-10 минут в день
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderRadius": 25,
+        "height": "17%",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Продолжающий
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        10-20 минут в день
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderRadius": 25,
+        "height": "17%",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Продвинутый
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        15-30 минут в день
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <NextButton
+      onPress={[Function]}
+      title="Cледующие"
+    />
+  </View>
+</View>
+`;

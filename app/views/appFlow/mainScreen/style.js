@@ -1,11 +1,11 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
+import { colors } from '../../../services/constants';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0F2635',
+    backgroundColor: colors.mainBackground,
   },
-
   headerRows: {
     flex: 0.1,
     flexDirection: 'row',
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    color: '#fff',
+    color: colors.white,
     paddingLeft: 20,
     fontWeight: 'bold',
   },
@@ -30,11 +30,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-
   sliderView: {
     flex: 0.35,
   },
-
   subHeaderRows: {
     flex: 0.05,
     flexDirection: 'row',
@@ -51,7 +49,7 @@ const styles = StyleSheet.create({
   },
   subHeaderTitle: {
     fontSize: 15,
-    color: '#fff',
+    color: colors.white,
   },
   subHeaderCountView: {
     flex: 0.15,
@@ -60,7 +58,7 @@ const styles = StyleSheet.create({
   },
   subHeaderCount: {
     fontSize: 15,
-    color: '#fff',
+    color: colors.white,
   },
 
   itemsViewRows: {

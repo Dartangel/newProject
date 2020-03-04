@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationScreen RegistrationScreen snapshot 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../app/src/img/splashScreen1.jpeg",
+    }
+  }
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <FirstButtons
+      onPress={[Function]}
+      title="Вход"
+    />
+    <FirstButtons
+      onPress={[Function]}
+      title="Регистрация"
+    />
+  </View>
+</ImageBackground>
+`;

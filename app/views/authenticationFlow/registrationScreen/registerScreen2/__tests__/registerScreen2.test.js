@@ -6,7 +6,7 @@ import RegistrationScreen2 from '../registerScreen2';
 describe('RegistrationScreen2', () => {
     test('RegistrationScreen2 snapshot', () => {
         const renderer = new ShallowRenderer();
-        const snapshot = renderer.render(<RegistrationScreen2/>);
+        const snapshot = renderer.render(<RegistrationScreen2 />);
         expect(snapshot).toMatchSnapshot();
     });
 });

@@ -1,0 +1,631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainScreen MainScreen snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0F2635",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 0.1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 0.6,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "paddingLeft": 20,
+          }
+        }
+      >
+        СБРОСИТЬ ВЕС
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+      >
+        <IconComponent
+          name="weather-lightning"
+        />
+      </TouchableOpacity>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+      >
+        <IconComponent
+          name="lighthouse"
+        />
+      </TouchableOpacity>
+    </View>
+  </View>
+  <ScrollViewMock
+    style={
+      Object {
+        "flex": 0.9,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 0.35,
+          }
+        }
+      >
+        <ScrollViewMock
+          horizontal={true}
+          style={
+            Object {
+              "height": 200,
+              "width": "100%",
+            }
+          }
+        >
+          <SliderComponent
+            source={
+              Object {
+                "testUri": "../../../app/src/img/car.jpeg",
+              }
+            }
+          />
+          <SliderComponent
+            source={
+              Object {
+                "testUri": "../../../app/src/img/car2.jpeg",
+              }
+            }
+          />
+        </ScrollViewMock>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.05,
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <IconComponent
+            name="flag-variant"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.7,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            НЕДЕЛЯ 1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            0/7
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "marginBottom": 10,
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="1 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="2 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="3 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="4 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="5 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="6 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="7 - й День"
+          />
+        </TouchableOpacity>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.05,
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <IconComponent
+            name="flag-variant"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.7,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            НЕДЕЛЯ 2
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            0/7
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "marginBottom": 10,
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="1 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="2 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="3 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="4 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="5 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="6 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="7 - й День"
+          />
+        </TouchableOpacity>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.05,
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <IconComponent
+            name="flag-variant"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.7,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            НЕДЕЛЯ 3
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            0/7
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "marginBottom": 10,
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="1 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="2 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="3 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="4 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="5 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="6 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="7 - й День"
+          />
+        </TouchableOpacity>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.05,
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <IconComponent
+            name="flag-variant"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.7,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            НЕДЕЛЯ 4
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.15,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 15,
+              }
+            }
+          >
+            0/7
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "marginBottom": 10,
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="1 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="2 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="3 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="4 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="5 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="6 - й День"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.7}
+        >
+          <ItemComponent
+            count="0%"
+            text="7 - й День"
+          />
+        </TouchableOpacity>
+      </View>
+    </View>
+  </ScrollViewMock>
+</View>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplashScreen SplashScreen snapshot 1`] = `
+<View>
+  <ImageBackground
+    source={
+      Object {
+        "testUri": "../../../app/src/img/splashScreen1.jpeg",
+      }
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <Loader
+      source={
+        Object {
+          "testUri": "../../../app/src/img/splashScreen.jpeg",
+        }
+      }
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </ImageBackground>
+</View>
+`;

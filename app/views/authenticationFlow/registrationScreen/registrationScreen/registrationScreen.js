@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './styles';
-import { TouchableOpacity, View, ImageBackground, Text } from 'react-native';
+import { View, ImageBackground } from 'react-native';
 import { images } from '../../../../services/utils/index';
 import { ROUTERS, titles } from '../../../../services/constants';
+import FirstButtons from '../../../../components/firstButtons';
 
-const RegistrationScreen = ({ navigation }) => {
+export default function RegistrationScreen({ navigation }) {
 
     const goToAuthorizationScreen = () => {
         navigation.navigate(ROUTERS.SignUp);
@@ -17,14 +18,9 @@ const RegistrationScreen = ({ navigation }) => {
     return (
         <ImageBackground style={styles.image} source={images.logerImage2}>
             <View style={styles.container}>
-                <TouchableOpacity style={styles.button} onPress={() => goToAuthorizationScreen()}>
-                    <Text style={styles.btnText}>{titles.ENTER}</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => _signInAsync()}>
-                    <Text style={styles.btnText}>{titles.REGISTRATION}</Text>
-                </TouchableOpacity>
+                <FirstButtons onPress={goToAuthorizationScreen} title={titles.ENTER} />
+                <FirstButtons onPress={_signInAsync} title={titles.REGISTRATION} />
             </View>
         </ImageBackground>
     );
 };
-export default RegistrationScreen;

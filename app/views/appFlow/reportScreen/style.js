@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     titleView: {
         flex: 1,
         flexDirection: 'row',
-       padding:5
+        padding: 5
     },
     timeText: {
         fontSize: 15,
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-   
+
     text: {
         fontSize: 20,
         color: colors.white,

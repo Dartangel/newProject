@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, TextInput, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 'react-native';
+import { View, Text, TextInput, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 'react-native';
 import style from './style';
 import { images } from '../../../../services/utils';
 import { titles, ROUTERS } from '../../../../services/constants';
+import NextButton from '../../../../components/nextButton';
+import styles from './style';
+import { TextInputs } from './component';
 
 export default function SignUp({ navigation }) {
 
@@ -27,27 +30,14 @@ export default function SignUp({ navigation }) {
         }
     }
 
-    const textInputs = (placeholder, setValue, check) => {
-        return (
-            <View>
-                <TextInput style={styles.TextInput} placeholder={placeholder} placeholderTextColor="white"
-                    onChangeText={(val) => setValue(val)}
-                    secureTextEntry={check} />
-            </View>
-        )
-    }
-
     return (
         <ImageBackground style={styles.image} source={images.logerImage2}>
             <View style={style.container}>
                 <KeyboardAvoidingView behavior='padding' keyboardVerticalOffset="-250" enabled style={styles.wrapper}>
                     <Text style={styles.text}>{titles.AUTHORIZATION}</Text>
-                    {textInputs(titles.USERNAME, setUsername, false)}
-                    {textInputs(titles.PASSWORD, setPassword, true)}
-                    <TouchableOpacity style={styles.button}
-                        onPress={() => showData()}>
-                        <Text style={styles.btnText}>{titles.LOGIN}</Text>
-                    </TouchableOpacity>
+                    {TextInputs(titles.USERNAME, setUsername, false)}
+                    {TextInputs(titles.PASSWORD, setPassword, true)}
+                    <NextButton onPress={showData} title={titles.ENTER} />
                 </KeyboardAvoidingView>
             </View>
         </ImageBackground>

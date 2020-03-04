@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, TextInput, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 'react-native';
+import { View, Text, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 'react-native';
 import style from './styles';
 import { images } from '../../../../services/utils';
 import styles from './styles';
 import { ROUTERS, titles } from '../../../../services/constants';
+import NextButton from '../../../../components/nextButton';
+import TextInputs from './components'
 
 export default function RegisterScree({ navigation }) {
 
@@ -29,28 +31,17 @@ export default function RegisterScree({ navigation }) {
         }
     }
 
-    const textInputs = (placeholder, setValue, check) => {
-        return (
-            <View>
-                <TextInput style={styles.TextInput} placeholder={placeholder} placeholderTextColor="white"
-                    onChangeText={(val) => setValue(val)}
-                    secureTextEntry={check} />
-            </View>
-        )
-    }
-
     return (
         <ImageBackground style={styles.image} source={images.logerImage2}>
             <View style={style.container}>
                 <KeyboardAvoidingView behavior='padding' keyboardVerticalOffset="-250" enabled style={styles.wrapper}>
                     <Text style={styles.text}>{titles.REGISTRATION}</Text>
-                    {textInputs(titles.USERNAME, setUsername, false)}
-                    {textInputs(titles.PASSWORD, setPassword, true)}
-                    {textInputs(titles.CONFIRM_PASSWORD, setConfirm, true)}
-                    <TouchableOpacity style={styles.button}
-                        onPress={() => saveData()}>
-                        <Text style={styles.btnText}>{titles.LOGIN}</Text>
-                    </TouchableOpacity>
+                    {TextInputs(titles.USERNAME, setUsername, false)}
+                    {TextInputs(titles.PASSWORD, setPassword, true)}
+                    {TextInputs(titles.CONFIRM_PASSWORD, setConfirm, true)}
+                    <View style={styles.nextButton}>
+                        <NextButton onPress={saveData} title={titles.NEXT_BUTTON} />
+                    </View>
                 </KeyboardAvoidingView>
             </View>
         </ImageBackground>

@@ -3,6 +3,9 @@ import { StyleSheet } from 'react-native';
 
 export default styles = StyleSheet.create({
 
+    nextButton: {
+        alignItems: 'center'
+    },
     container: {
         flex: 1,
         justifyContent: 'center',
@@ -17,7 +20,6 @@ export default styles = StyleSheet.create({
     wrapper: {
         flex: 1,
         justifyContent: 'center',
-        alignSelf: 'stretch'
     },
     TextInput: {
         backgroundColor: colors.rgba,
@@ -46,8 +48,5 @@ export default styles = StyleSheet.create({
         backgroundColor: colors.green,
         marginTop: 30,
     },
-    btnText: {
-        color: colors.white,
-        fontWeight: "bold"
-    }
+
 })

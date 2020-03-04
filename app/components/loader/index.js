@@ -1,37 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Animated } from 'react-native';
+import { images } from '../../services/utils';
 
-export default class Loader extends Component {
-    state = { opacity: new Animated.Value(0) }
+export default function Loader() {
+    const opacity = new Animated.Value(0);
 
-    onLoad = () => {
-        Animated.timing(this.state.opacity,
-            { toValue: 1, duration: 2500 }
-        ).start()
-    }
+    Animated.timing(opacity, {
+        toValue: 1,
+        duration: 2000
+    }).start();
 
-    render() {
-        return (
-            <Animated.Image
-                onLoad={this.onLoad}
-                {...this.props}
-                style={[
-                    {
-                        width: '100%',
-                        height: '100%',
-                        opacity: this.state.opacity,
-                        transform: [
-                            {
-                                scale: this.state.opacity.interpolate({
-                                    inputRange: [0, 1],
-                                    outputRange: [1, 1]
-                                })
-                            }
-                        ]
-                    }
-                ]
+    return (
+        <Animated.Image
+            style={[
+                {
+                    width: '100%',
+                    height: '100%',
+                    opacity: opacity,
+                    transform: [
+                        {
+                            scale: opacity.interpolate({
+                                inputRange: [0, 1],
+                                outputRange: [1, 1]
+                            })
+                        }
+                    ]
                 }
-            />
-        )
-    }
+            ]
+            }
+            source={images.logerImage}
+        />
+    )
 }

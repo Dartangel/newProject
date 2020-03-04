@@ -1,0 +1,1705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileScreen ProfileScreen snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0F2635",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "grey",
+        "borderBottomWidth": 3,
+        "height": 50,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 25,
+          "paddingStart": 10,
+          "paddingTop": 5,
+        }
+      }
+    >
+      Я
+    </Text>
+  </View>
+  <ScrollViewMock
+    style={
+      Object {
+        "flex": 0.9,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 350,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#08DBA5",
+              "fontSize": 20,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-alarm"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Напоминание
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            21:00
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name="md-add"
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-sync"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Обратный отсчёт
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            10 сек
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name="md-arrow-dropdown"
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-cafe"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Отдых при тренировке
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            10 сек
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name="md-arrow-dropdown"
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-volume-high"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Настройки звука
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 350,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#08DBA5",
+              "fontSize": 20,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-heart"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Синхронизация с приложением Google
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name="ios-cog"
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-medkit"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Данные о здоровье
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-appstore"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Метрические единици измерения
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-globe"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Выбор Языка
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-refresh"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Сбросить результаты
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 350,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#08DBA5",
+              "fontSize": 20,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-heart"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Тест речи
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-settings"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Выбрать синтезатор речи TTS
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-download"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Скачать синтезатор речи TTS
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-mic"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Голос язык
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-code-download"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Скачать больше синтезаторов речи
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-options"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              TTS Настройки устройства
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 350,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#08DBA5",
+              "fontSize": 20,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-share"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Поделиться с друзьями
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="md-checkbox"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Оцените нас
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-paper-plane"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Отзыв
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.8,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.2,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="grey"
+              name="ios-eye"
+              size={30}
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 0.8,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Политика конфиденциальности
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          />
+          <Icon
+            allowFontScaling={false}
+            color="#08DBA5"
+            name={null}
+            size={20}
+          />
+        </View>
+      </View>
+    </View>
+  </ScrollViewMock>
+</View>
+`;

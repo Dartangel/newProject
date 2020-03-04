@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportScreen ReportScreen snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0F2635",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "grey",
+        "borderBottomWidth": 3,
+        "height": 50,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 25,
+          "paddingStart": 10,
+          "paddingTop": 5,
+        }
+      }
+    >
+      Отчёт
+    </Text>
+  </View>
+  <ComponentWrapper>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+        >
+          Всего
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#0F2635",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.5,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 20,
+                }
+              }
+            >
+              5
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 20,
+                }
+              }
+            >
+              5.6
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 20,
+                }
+              }
+            >
+              00:57
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.5,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Тренировки
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Ккалории
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "grey",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Длительность
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+        >
+          История
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0.5,
+            "justifyContent": "center",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+        >
+          Вес
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.6,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                }
+              }
+            >
+              Текущий           
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            64.00 кг
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.6,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                }
+              }
+            >
+              Самый тяжёлый
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            64.00 кг
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.6,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                }
+              }
+            >
+              Самый лёгкий
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.2,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            64.00 кг
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "grey",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.6,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                }
+              }
+            >
+              ИМТ(кг/м²)
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.5,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            delayLongPress={600}
+            extraButtonProps={
+              Object {
+                "rippleColor": "transparent",
+              }
+            }
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Редактировать
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.6,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                }
+              }
+            >
+              Рост
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.5,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            delayLongPress={600}
+            extraButtonProps={
+              Object {
+                "rippleColor": "transparent",
+              }
+            }
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Редактировать
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "grey",
+            "borderBottomWidth": 2,
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.6,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                }
+              }
+            >
+              Текущий
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 0.5,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            delayLongPress={600}
+            extraButtonProps={
+              Object {
+                "rippleColor": "transparent",
+              }
+            }
+            style={
+              Object {
+                "color": "#08DBA5",
+                "fontSize": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 15,
+                }
+              }
+            >
+              181.0 см
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </View>
+  </ComponentWrapper>
+</View>
+`;

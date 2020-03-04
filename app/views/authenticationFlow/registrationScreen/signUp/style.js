@@ -30,20 +30,6 @@ export default styles = StyleSheet.create({
         borderBottomColor: colors.white,
         borderBottomWidth: 1,
     },
-    button: {
-        borderRadius: 25,
-        marginBottom: 20,
-        marginHorizontal: 20,
-        alignSelf: 'stretch',
-        alignItems: 'center',
-        padding: 20,
-        backgroundColor: colors.green,
-        marginTop: 30,
-    },
-    btnText: {
-        color: colors.white,
-        fontWeight: "bold"
-    },
     text:
     {
         alignSelf: 'center',
